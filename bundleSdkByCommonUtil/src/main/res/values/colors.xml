@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 大背景色 -->
+    <color name="main_background">#2e3138</color>
+    <color name="loading_blue">#006699</color>
+    <color name="title_backgroup">#1E2128</color>
+    <!--  -->
+    <color name="text_item_des">#9b9b9b</color>
+    <color name="text_item_two">#8ab71b</color>
+    <!--  -->
+    <color name="radiobtn_press">#444953</color>
+    <color name="radiobtn_normal">#23252b</color>
+    <!--  -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <!-- 白色 带灰 作布局背景  QQ背景 -->
+    <color name="white_gray_qq">#DDDDDD</color>
+    <!-- 白色 带灰 作布局背景  京东背景 -->
+    <color name="white_gray_jindong">#F2F2F2</color>
+    <color name="yb_94B736_title_bar">#94B736</color>
+</resources>

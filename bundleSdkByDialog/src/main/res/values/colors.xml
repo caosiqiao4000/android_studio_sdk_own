@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 窗口底部布局栏颜色 -->
+    <color name="window_bottom_layout_46464D">#46464D</color>
+    <color name="black_000000">#000000</color>
+    <color name="image_bg_color">#ffaaaaaa</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#006699</color>
+    <color name="grey">#ff58616d</color>
+    <!-- 灰色 -->
+    <color name="title_bg">#333333</color>
+    <color name="title_bg_89af28">#89af28</color>
+    <color name="title_bg_ban">#50000000</color>   <!-- 半透明 -->
+
+    <!-- 白色 带灰 作布局背景  QQ背景 -->
+    <color name="white_gray_qq">#DDDDDD</color>
+    <!--  -->
+    <color name="sh_select_back">#fff1dc</color>
+    <color name="sh_main_small_titie">#666666</color>
+    <color name="sh_main_big_titie">#55747f</color>
+    <color name="sh_text_gray">#8b8c8c</color>
+    <color name="sh_transparent">#00000000</color>
+    <color name="sh_gray">#ff555555</color>
+    <color name="sh_clblack">#000000</color>
+    <color name="sh_clMoney">#ff6700</color>
+    <color name="sh_clred">#ff0000</color>
+    <color name="sh_color1">#EF9F1B</color>
+    <color name="sh_clarity">#00000000</color>
+    <color name="sh_listview_divider">#BDBDBD</color>
+    <color name="sh_blue">#006699</color>
+    <color name="sh_image_bg_color">#ffaaaaaa</color>
+    <color name="sh_gray_default">#333333</color>
+    <color name="sh_translucent_background">#e0000000</color>
+
+</resources>

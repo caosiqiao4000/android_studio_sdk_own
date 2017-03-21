@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--弹出窗口的动画样式
+    <style name="popupWindowAnim">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style> -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="1000"
+        android:fromXDelta="0.0"
+        android:fromYDelta="100.0%p"
+        android:toXDelta="0.0"
+        android:toYDelta="0.0" />
+
+</set>

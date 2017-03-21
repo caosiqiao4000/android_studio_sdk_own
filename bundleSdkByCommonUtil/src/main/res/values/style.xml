@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme"></style>
+
+    <style name="Theme.DeviceDefault"></style>
+
+    <style name="Theme.DeviceDefault.Anim"></style>
+
+    <style name="Theme.DeviceDefault.Anim.TopToBottom">
+        <item name="android:inAnimation">@anim/push_up_in</item>
+        <item name="android:outAnimation">@anim/push_up_out</item>
+    </style>
+
+</resources>

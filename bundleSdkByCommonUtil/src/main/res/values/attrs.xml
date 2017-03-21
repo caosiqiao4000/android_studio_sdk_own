@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="sq_common_translate_anim">
+        <attr name="top_bommom" format="reference"></attr>
+        <attr name="bommom_top" format="reference"></attr>
+    </declare-styleable>
+</resources>

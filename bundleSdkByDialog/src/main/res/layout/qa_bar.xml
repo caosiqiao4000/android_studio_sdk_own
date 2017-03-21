@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 箭头的ImageView在FrameLayout之上可消除两者之间的间隙。如要查看间隙效果请将header2与arrow_up位置互换。 -->
+
+    <FrameLayout
+        android:id="@+id/barBorderTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/qa_arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qa_arrow_up" />
+    <!-- android:fadingEdgeLength:设置Scroll水平头尾两端颜色渐变的区域宽度。本处设置为0。 -->
+    <!-- android:scrollbars:同样，本Scroll不需要水平或垂直滚动条。其取值可有：none、horizontal、vertical -->
+
+    <HorizontalScrollView
+        android:id="@+id/actionScrollFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_btn_height"
+        android:layout_below="@+id/qa_arrow_up"
+        android:background="@drawable/nav_bg"
+        android:fadingEdgeLength="0dip"
+        android:paddingLeft="1dip"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/actionsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_60dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"></LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/barBorderBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionScrollFrame">
+
+        <!-- android:background="@drawable/qa_border_bottom" -->
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/qa_arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barBorderBottom"
+        android:src="@drawable/qa_arrow_down" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_to_refresh_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="3.0dip"
+    android:paddingTop="3.0dip">
+
+    <ProgressBar
+        android:id="@+id/pull_to_refresh_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_image"
+        android:layout_width="10dip"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:visibility="gone"/>
+    <!---->
+    <com.ant.liao.GifView
+        android:id="@+id/pull_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        />
+
+
+    <TextView
+        android:id="@+id/pull_to_refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/pull_gif"
+        android:text="@string/pull_to_refresh_pull_down"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_item_des"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pull_to_refresh_updated_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pull_to_refresh_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:text="上次更新时间：12年9月3日14:38"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/text_item_des"
+        android:textSize="12dp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">dialogBundleSdk</string>
+    <string name="sq_sure">确\t定</string>
+    <string name="sq_cancle">取\t消</string>
+    <string name="home_myroot">权限设置</string>
+    <string name="loading">加载中...</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部确认按钮的高度 -->
+    <dimen name="bottom_btn_height">37dip</dimen>
+    <dimen name="height_60dp">60dp</dimen>
+    <dimen name="height_50dp">50dp</dimen>
+    <dimen name="height_10dp">10dp</dimen>
+    <dimen name="text_size_10sp_small">10sp</dimen>
+    <dimen name="text_size_17sp_big">17sp</dimen>
+
+</resources>

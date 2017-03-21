@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按钮被按下后的背景 -->
+    <item android:drawable="@drawable/btn_press" android:state_pressed="true" />
+    <!-- 被禁止后的背景 -->
+    <item android:drawable="@drawable/btn_disable" android:state_enabled="false" />
+    <!-- 一般状态下的背景 -->
+    <item android:drawable="@drawable/btn_normal" />
+
+</selector>

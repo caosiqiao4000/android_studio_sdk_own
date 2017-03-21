@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">TestWebViewFromSh</string>
+    <string name="ProxySettings_ErrorProxySettingsNotValid">this is request one</string>
+    <string name="ProxySettings_ErrorProxyServerNotReachable">this is request two</string>
+    <string name="ProxySettings_ErrorProxyInternetNotReachable">this is request three</string>
+    <string name="ProxySettings_EnablingProxySettings">this is request four</string>
+    <string name="ProxySettings_ProxySettingsEnabled">this is request five</string>
+
+</resources>

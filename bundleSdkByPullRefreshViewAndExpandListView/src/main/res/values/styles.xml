@@ -1,0 +1,55 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="LayoutTransparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 标题栏 -->
+    <style name="btn_title_default_style">
+
+        <!-- <item name="android:layout_width">@dimen/image_normal_widht_60</item> -->
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">@dimen/text_size_14_h5</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Image_arrows"></style>
+
+    <style name="LinLayout"></style>
+    <!-- 箭头标记 右尖角 灰黑色 -->
+    <style name="ImageStyle.arrows_no_circle" parent="@style/Image_arrows">
+
+        <!-- <item name="android:src">@drawable/right</item> -->
+        <item name="android:layout_marginRight">20dip</item>
+    </style>
+    <!-- 默认的背景的样式 QQ式 -->
+    <style name="LinLayout.default_background">
+        <item name="android:background">@color/white_gray_qq</item>
+    </style>
+
+    <!-- 默认的背景的样式 京东式 -->
+    <style name="LinLayout.default_background_jindong">
+        <item name="android:background">@color/white_gray_jindong</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_padd_or_margin_2">2.0dp</dimen>
+    <dimen name="layout_padd_or_margin_5">5.0dip</dimen>
+    <dimen name="layout_padd_or_margin_10">10.0dp</dimen>
+    <dimen name="layout_padd_or_margin_15">15.0dip</dimen>
+    <dimen name="layout_padd_or_margin_20">20.0dip</dimen>
+    <dimen name="btn_default_height_30">30.0dip</dimen>
+    <dimen name="layout_item_height_42">42.0dip</dimen>
+    <dimen name="layout_item_height_45">45.0dip</dimen>
+    <!-- slidingmenu width -->
+    <dimen name="fan_width_50">50.0dp</dimen>
+    <dimen name="image_normal_widht_60">60.0dip</dimen>
+    <dimen name="layout_view_height_100">100.0dip</dimen>
+    <dimen name="view_default_height_120">120.0dp</dimen>
+    <dimen name="view_default_height_150dp">150.0dp</dimen>
+    <dimen name="view_default_height_200dp">200.0dp</dimen>
+
+    <!-- character size setting 6像素一级  -->
+    <!-- 特大字体大小 -->
+    <dimen name="text_size_42_h_h">42sp</dimen>
+    <!-- 副标题h1的大小 -->
+    <dimen name="text_size_36_h1">36.0sp</dimen>
+    <!-- 副标题h2的大小 -->
+    <dimen name="text_size_30_h2">30.0sp</dimen>
+    <!-- 副标题h3的大小 -->
+    <dimen name="text_size_24_h3">24.0sp</dimen>
+    <!-- 副标题h3的大小 -->
+    <dimen name="text_size_22_h3_small">22.0sp</dimen>
+    <!-- 副标题h4的大小  -->
+    <dimen name="text_size_20_h4_large">18.0sp</dimen>
+    <!-- 副标题h4的大小  -->
+    <dimen name="text_size_18_h4">18.0sp</dimen>
+    <dimen name="text_size_15_h5">15.0sp</dimen>
+    <!-- 副标题h5的大小  2像素一级-->
+    <dimen name="text_size_14_h5">14.0sp</dimen>
+    <!-- 副标题h6的大小 4像素一级-->
+    <dimen name="text_size_12_h6">12.0sp</dimen>
+    <!-- 正文的大小 -->
+    <dimen name="text_size_10_content">10.0sp</dimen>
+
+</resources>

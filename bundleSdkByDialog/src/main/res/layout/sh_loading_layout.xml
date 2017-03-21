@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sh_Layoutlayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sh_nomore_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dip">
+
+        <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:indeterminateDrawable="@drawable/sh_loading" />
+        com.ant.liao.GifView-->
+
+        <com.ant.liao.GifView
+            android:id="@+id/gif1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/sh_left_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="拼命加载中..."
+            android:textColor="@color/title_bg_89af28"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/sh_loadingImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            />
+    </LinearLayout>
+
+</LinearLayout>

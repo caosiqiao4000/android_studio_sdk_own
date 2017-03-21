@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/height_50dp"
+    android:background="@drawable/mf_dialog_title"
+    android:padding="@dimen/height_10dp"
+    android:gravity="center"
+    android:text="aaaaaaaaaa"
+    android:textColor="@color/white"
+    android:textSize="18sp" />

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="0.2" android:centerColor="#FFCAB7" android:centerX="1" android:centerY="1" android:endColor="#FFFFFF" android:gradientRadius="1" android:startColor="#FFFFFF" android:type="linear" />
+
+            <solid android:color="#B3B3B3C7" />
+
+            <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:radius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="0.2" android:centerColor="#FFFCC7" android:centerX="1" android:centerY="1" android:endColor="#FFFFFF" android:gradientRadius="1" android:startColor="#FFFFFF" android:type="linear" />
+
+            <solid android:color="#B0E2FF" />
+
+            <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:radius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <gradient android:angle="0.2" android:centerColor="#FFF777" android:centerX="1" android:centerY="1" android:endColor="#FFFFFF" android:gradientRadius="1" android:startColor="#FFFFFF" android:type="linear" />
+
+            <solid android:color="#A3A3A3B7" />
+
+            <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:radius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="0.2" android:centerColor="#FFFAC7" android:centerX="1" android:centerY="1" android:endColor="#FFFFFF" android:gradientRadius="1" android:startColor="#FFFFFF" android:type="linear" />
+
+            <solid android:color="#AFA5A7C7" />
+
+            <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:radius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="0.2" android:centerColor="#FFF777" android:centerX="1" android:centerY="1" android:endColor="#FFFFFF" android:gradientRadius="1" android:startColor="#FFFFFF" android:type="linear" />
+
+            <solid android:color="#AFA5A7C7" />
+
+            <corners android:bottomLeftRadius="5dp" android:bottomRightRadius="5dp" android:radius="5dp" android:topLeftRadius="5dp" android:topRightRadius="5dp" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">TestWebViewFromSh</string>
+    <!--  -->
+    <string name="pull_to_refresh_pull_label">下载列表</string>
+    <string name="pull_to_refresh_pull_down">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_tap_label">点击更新</string>
+    <string name="pull_to_refresh_tap_over">刷新完成</string>
+
+</resources>

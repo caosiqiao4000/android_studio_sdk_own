@@ -1,0 +1,171 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 对话框样式 -->
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 窗口的动画样式 -->
+        <item name="android:windowAnimationStyle">@style/DialogAnim</item>
+        <!-- 不要标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 整个对话框窗口的背景 -->
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+    </style>
+    <!-- 对话框窗口的动画样式 -->
+    <style name="DialogAnim">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <!-- 文字样式 -->
+    <style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- 标题样式 -->
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_default_style">
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">@dimen/bottom_btn_height</item>
+        <item name="android:textColor">#0E0E0E</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/operate_bg</item>
+        <!-- <item name="android:background">@drawable/qa_actionitem_bg</item> -->
+    </style>
+    <!-- 按钮样式 -->
+    <style name="Dialog_Button">
+        <item name="android:background">@drawable/btn_my_team_info</item>
+        <item name="android:textColor">#0E0E0E</item>
+    </style>
+    <!-- 对话框配置 -->
+    <style name="sh_MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/sh_clarity</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnterAnimation">@anim/sh_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/sh_dialog_out</item>
+    </style>
+
+    <style name="QuickActionBar"></style>
+
+    <style name="QuickActionBar.PopDown"></style>
+
+    <style name="QuickActionBar.PopDown.Left">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="QuickActionBar.PopDown.Right">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="QuickActionBar.PopDown.Center">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_top</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_bottom</item>
+    </style>
+
+    <style name="QuickActionBar.PopUp"></style>
+
+    <style name="QuickActionBar.PopUp.Left">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="QuickActionBar.PopUp.Right">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="QuickActionBar.PopUp.Center">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_top</item>
+    </style>
+
+    <style name="popupWindowLeftToP">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="popupWindowTopCenter">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_top</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_bottom</item>
+    </style>
+
+    <style name="popupWindowBottomCenter">
+        <item name="android:windowEnterAnimation">@anim/bar_show_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/bar_hide_from_topright_to_bottomleft</item>
+    </style>
+    <!-- PopUpMenu -->
+    <style name="Animations" />
+
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <style name="checkbox_bg" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_radiobutton_selector</item>
+        <item name="android:paddingLeft">22dp</item>
+    </style>
+</resources>
